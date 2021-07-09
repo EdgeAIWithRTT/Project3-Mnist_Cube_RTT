@@ -1,19 +1,19 @@
-> - Summary: 在 RT-Thread 系统上执行 Mnist 推理，纯手搭版
-> - Author: lebhoryi@gmail.com & qiwen20150309@163.com
-> - Date: 2020/07/19
+> - Summary: 
+>
+>   在 RT-Thread 系统上使用 RT-AK 部署 Mnist 模型
+>
+> - Author: 
+>
+>   lebhoryi@gmail.com & qiwen20150309@163.com
+>
+> - Date: 202107/09
 
 [TOC]
 
 
 # 0x00 前言
 
-在 H743 + RT - Thread 上实现MNIST推理
-
-两种方法:
-
-- [x] STM32Cube AI + RTT
-
-- [ ] CMSIS + RTT
+在 ART-PI + RT - Thread 上实现MNIST推理
 
 # 0x01 文件树
 
@@ -99,6 +99,6 @@ Restored model, accuracy: 96.51%
 
   > `Mnist_RTT/applications` 中的 `mnist_app.c` 为示例开发 `Demo`，并非 `RT-AK` 生成
   >
-  > 该问题是另外一个话题了，详细请查阅 RT-AK 相关文档。即将开源 2021/04/10
+  > 该问题是另外一个话题了，详细请查阅 RT-AK 相关文档。
 
 详细请查阅 [./Mnist_RTT/Readme.md](./Mnist_RTT/Readme.md)
